@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - Vehicle
   - Cart
+  - Gate
   layers:
   - Default
   - TransparentFX
