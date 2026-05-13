@@ -36,7 +36,7 @@ public class CustomerNPC : MonoBehaviour
     void GoToRandomPoint()
     {
         // Picks a random point within 15 units around the NPC
-        Vector3 randomDirection = Random.insideUnitSphere * 15f;
+        Vector3 randomDirection = Random.insideUnitSphere * 8f;
         randomDirection += transform.position;
 
         UnityEngine.AI.NavMeshHit hit;
