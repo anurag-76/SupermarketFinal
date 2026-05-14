@@ -34,15 +34,6 @@ public class Inventory : MonoBehaviour
             Cursor.lockState = isActive ? CursorLockMode.None : CursorLockMode.Locked;
             Cursor.visible = isActive;
         }
-
-        if(Input.GetKeyDown(KeyCode.P))
-        {
-            AddItem(woodItem, 3);
-        }
-        else if (Input.GetKeyDown(KeyCode.O))
-        {
-            AddItem(axeItem, 1);
-        }
     }
 
     public void AddItem(ItemSO itemToAdd, int amount)
