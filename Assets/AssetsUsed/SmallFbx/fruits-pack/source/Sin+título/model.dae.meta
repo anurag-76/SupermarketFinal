@@ -1,0 +1,2077 @@
+fileFormatVersion: 2
+guid: fa9e733a50e414d47b438ba74ef4c87b
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apple_texture_2
+    second: {fileID: 2100000, guid: ef1ffdbbef9dd47c890c3a0be1fd0b19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apple_texture_2_1
+    second: {fileID: 2100000, guid: b253919723c41444398d032451f34a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apple_texture_green
+    second: {fileID: 2100000, guid: 3035d48441f0744a99d699eb229ccaac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apple_texture_green1
+    second: {fileID: 2100000, guid: a0648f7180224455589d080deec6ed92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apple_texture_green1_3
+    second: {fileID: 2100000, guid: 7e0b5a04d572540b2a968c8a92f7db31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basket_003
+    second: {fileID: 2100000, guid: 53567e027f3604cf0b88481f5a2a4836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basket_1
+    second: {fileID: 2100000, guid: d42af989a615647fe8614d17a88363a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basket_2
+    second: {fileID: 2100000, guid: 0877cf6ee99b14e578edf2d0575c4fb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basket_2_4
+    second: {fileID: 2100000, guid: 946cb6a87ae984bb2a543bb0b27fa8a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blackberry
+    second: {fileID: 2100000, guid: 5f62c547514de417b8eeb8faf72ea232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C-Fruit_01
+    second: {fileID: 2100000, guid: 28ae66ea642804cc08a3730e5b2141cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C-cap
+    second: {fileID: 2100000, guid: 41acf0bed6c6c46f1bccbff4b805f7c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cantaloupe
+    second: {fileID: 2100000, guid: dc500f334036346e0a17e26d0ff0f4ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cantaloupe-2
+    second: {fileID: 2100000, guid: 5db1a5c35dd2a49ae8a2944f5ac3b204, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cantaloupe-2_248
+    second: {fileID: 2100000, guid: 293051efc028a4727b27b5a349a3bbcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cantaloupe_255
+    second: {fileID: 2100000, guid: 4122e1b99e1fa45c1ab6a34f2642653b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_001
+    second: {fileID: 2100000, guid: 4ada97701737e4504b50c33d0f096277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_002
+    second: {fileID: 2100000, guid: d8cc3b37f68fe4d30aae5de3732e61eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_005
+    second: {fileID: 2100000, guid: 9d584ff40b76a4042a5d0eb715e48930, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_006
+    second: {fileID: 2100000, guid: f4a15dc0fd1d743c5996d4732c96600e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_006_0
+    second: {fileID: 2100000, guid: 01ffc7bddf0e847f2802241a698193ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_008
+    second: {fileID: 2100000, guid: df555ad0980c2423d9baf52f227da21f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A01
+    second: {fileID: 2100000, guid: f175dd2a668b3485f8d57477c71e73f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A01_6
+    second: {fileID: 2100000, guid: 7322eec61dafe4e7089da47399c2810f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A02
+    second: {fileID: 2100000, guid: f36a717fef3734300a9b6291f4fe9ba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A02_2
+    second: {fileID: 2100000, guid: 9ddaec044c8ab403cb2571ce962511a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A08
+    second: {fileID: 2100000, guid: 02aa0ab26f13042829ae851aff5ff761, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A10
+    second: {fileID: 2100000, guid: ee3c865a87b1e4f3dbdd9765f602efb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A12
+    second: {fileID: 2100000, guid: d23bd085049ae4bff819ecf2977e1165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A16
+    second: {fileID: 2100000, guid: d0744601c83134ed682ba8f4556496ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A17
+    second: {fileID: 2100000, guid: 43e15ecc87d5b48a3a880e42811e54e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A18
+    second: {fileID: 2100000, guid: e777b5ba441694856aec591f070293b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A24
+    second: {fileID: 2100000, guid: 7059ccb7674d445fa93115cdc73d177f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_B01
+    second: {fileID: 2100000, guid: e8162005d182047e2958ff87bce4e79b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_B01_10
+    second: {fileID: 2100000, guid: 40c9ecee480994fe380c08a29e9b5a8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_B08
+    second: {fileID: 2100000, guid: dc2852a3dace14c8eac2946aba2aca21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_B12
+    second: {fileID: 2100000, guid: 486be3442bd9a43ef938b5c6ec92378c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_C07
+    second: {fileID: 2100000, guid: 1231f730ded6c4973b09aafbea0289d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_C10
+    second: {fileID: 2100000, guid: e8234590a3169427b9d01d935f96ad04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_C13
+    second: {fileID: 2100000, guid: a73ee2f8a718a485c86836f3ae258010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_C16
+    second: {fileID: 2100000, guid: 36b39192ac2324876b15c49f0ecf97d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_C17
+    second: {fileID: 2100000, guid: 508912bc423944f48b0d32121782df4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_C19
+    second: {fileID: 2100000, guid: 43d5a3891347a485b91af14df45c779e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_C22
+    second: {fileID: 2100000, guid: e7859b84e2ab6419f8e405d1b8a56d90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_D18
+    second: {fileID: 2100000, guid: 892cd47b3f3094e63a2ffe7167229c5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_E02x
+    second: {fileID: 2100000, guid: fa78ace5445204131a4e73c0c4b635c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_E07
+    second: {fileID: 2100000, guid: 8389d1c73914e4b598857ea1c3c9fcc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_E08
+    second: {fileID: 2100000, guid: f2941a50487c843a8afa568879d762f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_E13
+    second: {fileID: 2100000, guid: 7efc50d2c5bd94b0490326b54460b96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_E14
+    second: {fileID: 2100000, guid: e2cab116eebb04d4287292df2e90b35a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_E14_7
+    second: {fileID: 2100000, guid: 25c4269dcba41485d9f288f6ab3053b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_E17
+    second: {fileID: 2100000, guid: 32bc21d54d24b466d9da3dd5d891241b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_F16
+    second: {fileID: 2100000, guid: f9711f25a40764837a339cdbbbbdff57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_F21
+    second: {fileID: 2100000, guid: 4e6ed4217cbe64bd3840f07832e8a907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_F22s
+    second: {fileID: 2100000, guid: f556132d574d641febb04b1c7d049f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_F23
+    second: {fileID: 2100000, guid: fefd791a1a27d4f57b10ca31bfae138c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Containers
+    second: {fileID: 2100000, guid: 6957aff1d12994e02b5f82b6edb092e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cut_Fruits
+    second: {fileID: 2100000, guid: 0c55d59337f42406b9cf9fa396d0da41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Brick_Crushed
+    second: {fileID: 2100000, guid: a89b40aa93c0b460b8391895ec8dfe71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Brick_Crushed_19
+    second: {fileID: 2100000, guid: 1a78e3fc0538344588dc28b6bb00fc7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_1
+    second: {fileID: 2100000, guid: c13b1b8ba15b04815a9f2b96c4d78262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image1
+    second: {fileID: 2100000, guid: a2bf15ef742844365870b8283345c1ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mango-4
+    second: {fileID: 2100000, guid: ab1452174cd5a4fab9ef4e97e876230e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Melon_01
+    second: {fileID: 2100000, guid: a26e97c0ac1f949a8a3141c58f8f37a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Melon_02
+    second: {fileID: 2100000, guid: 48c595b8b1a6b4ab7af06304d30eb1fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Aluminum_Anodized
+    second: {fileID: 2100000, guid: 4cac3350982224cd3b19256a039a0063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Aluminum_Anodized_258
+    second: {fileID: 2100000, guid: 4f342456e3cb34bbdbfbb7b3e44cdba8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Corrogated_Shiny
+    second: {fileID: 2100000, guid: 53689fc62fe7541089899b8c416ff6ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Corrogated_Shiny_5
+    second: {fileID: 2100000, guid: b75c95f1278764d20a81aa00a366c2fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut-02
+    second: {fileID: 2100000, guid: 46a896b45a4ad411d816ea36124b91e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Onion
+    second: {fileID: 2100000, guid: 52a6335dd25c24b66a2751d2182bce5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Onion_9
+    second: {fileID: 2100000, guid: fea1cdd646c32425ab0f7278d5a4213e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Packaged_Nut
+    second: {fileID: 2100000, guid: c3992bde30e504be990531b0935f59ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_01
+    second: {fileID: 2100000, guid: 277a45b7f65dd4058beb9ced080db0cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T-F
+    second: {fileID: 2100000, guid: 13d371f9213764c2293366f9165bd9e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Gray
+    second: {fileID: 2100000, guid: 3acd7679f4c614be7936588af6160d4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Transparent_02
+    second: {fileID: 2100000, guid: e430a57c3d4904a97853bc36debed907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Transparent_03
+    second: {fileID: 2100000, guid: f04b57a145b12434fa16be8dde590bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _-Vegetation_-_Potted_Plant__1_-_Leaves1
+    second: {fileID: 2100000, guid: 9d05c2cb1b20d445a82e6c2e7a587c06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0002_MediumVioletRed
+    second: {fileID: 2100000, guid: e600308131d5b40979fceb391d046803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0002_MediumVioletRed_18
+    second: {fileID: 2100000, guid: a63fbb2f7e84f48e2ab0d5cc2211eb6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0004_HotPink
+    second: {fileID: 2100000, guid: 6881b5014032d4855955aa4ee83c3178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0016_Tomato
+    second: {fileID: 2100000, guid: 7e3fada64eef54f4cb83df161c799842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0023_FireBrick
+    second: {fileID: 2100000, guid: f2e3004982a1049518b35fda467abc8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0032_Moccasin
+    second: {fileID: 2100000, guid: 182efc600544749c48731ac608373a5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0077_DarkGreen
+    second: {fileID: 2100000, guid: a9ee08ccba353420fab509357a81bc68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _0108_Indigo
+    second: {fileID: 2100000, guid: 52faa7ac6640d4693b2cef905235a42f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _10_Glass_01
+    second: {fileID: 2100000, guid: 6a607bc3cf99640a993c7fa5c3e3a6a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_001_1
+    second: {fileID: 2100000, guid: 0969bca0d3c8c4e80a45e48edc23990b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_001_1_250
+    second: {fileID: 2100000, guid: bd8104c2e818a46089f1c03410b1350f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_001_2
+    second: {fileID: 2100000, guid: 31448984f8320485196444431b88a3c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_001_3
+    second: {fileID: 2100000, guid: 9444f861ca45d472b84798e18f5de9fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_001_4
+    second: {fileID: 2100000, guid: 57eca3f039a564816b8477545e4f779a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_001_4_14
+    second: {fileID: 2100000, guid: e9a2742313b034ac093df2af915b7e40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_006_1
+    second: {fileID: 2100000, guid: 89ebfda24466246ee9f1bf80165fa267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_006_2
+    second: {fileID: 2100000, guid: ab5a88d5aaa16413ba0e86254e93e6e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_006_2a
+    second: {fileID: 2100000, guid: 1b1b0a28e31dd4f0899f484058730a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_006_3
+    second: {fileID: 2100000, guid: ad62b4afc8f634a568021cecb1c57617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_006_3_251
+    second: {fileID: 2100000, guid: 89442e05075904ffc9e1c20a8c079477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_006_4
+    second: {fileID: 2100000, guid: 7bf3487eb8b984320a9d8e04c522b748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A01_1
+    second: {fileID: 2100000, guid: 3ba9ad7d7a7a842fba6b03dd2d6e932c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A01_2
+    second: {fileID: 2100000, guid: 863b8f3c1e536434994d9584ab857c97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A01_3
+    second: {fileID: 2100000, guid: 63b15af2b6e304cbaa43920463418e41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A02_1
+    second: {fileID: 2100000, guid: f7dab04c184f444e6881a98ed9c29f86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A04_1a
+    second: {fileID: 2100000, guid: 9ba1a7c734e0c42ae96d89e065819bb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A09_1
+    second: {fileID: 2100000, guid: 2be41b228f0c94bd5b823df88a0e6f06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A09_2
+    second: {fileID: 2100000, guid: fb176374d79414f96a583d3f94b4ed78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A09_2_11
+    second: {fileID: 2100000, guid: 6862fdc6518064a9681961fed8e8f75d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A09_3
+    second: {fileID: 2100000, guid: 98097583707fe4251b073e8f7583d311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A09_3_13
+    second: {fileID: 2100000, guid: 35042766faa2f41f8859b0246f30b6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A12_1
+    second: {fileID: 2100000, guid: 25286c88dd94c490eabb38b551174ba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A17_1
+    second: {fileID: 2100000, guid: 84e733a324f20456aad5699092173346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A18_1
+    second: {fileID: 2100000, guid: 1986ec25884514598b031b06375b0bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A18_2
+    second: {fileID: 2100000, guid: eb613d1a6a9d34e3897ce879123aaed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A20_1
+    second: {fileID: 2100000, guid: c217b91dc3498449bb546534b91b6a72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_A20_1_12
+    second: {fileID: 2100000, guid: 66e54ee6e5f654da68347f1c8a9b6b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_B01_1
+    second: {fileID: 2100000, guid: 4b14412f100084610ab696ee0d3f790a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_B01_2
+    second: {fileID: 2100000, guid: 1c080b69a04614b008dbdb95b1f88712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_C10_1
+    second: {fileID: 2100000, guid: 8d96aa34e6efd40beadeadc55896bdb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_C10_1_253
+    second: {fileID: 2100000, guid: 4dd7649fad525443cb73530ab6cc403d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_E17_1
+    second: {fileID: 2100000, guid: 371da85e393bb4864b402bb0c40816f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_F17_1
+    second: {fileID: 2100000, guid: 26633561656ba48cca149b559bac77af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_F19_1
+    second: {fileID: 2100000, guid: 687a1f11105bb4bdf937c739f12aaf2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Color_F19_2
+    second: {fileID: 2100000, guid: 6563cd662e8eb4cb8b18c633b453ad09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_1
+    second: {fileID: 2100000, guid: 65c041eee28034d7ca0c540cc917a777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_10
+    second: {fileID: 2100000, guid: 7cb6dbe5c13064f2eaed1f6fd60ee593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_11
+    second: {fileID: 2100000, guid: 02dc60a3fcc2c4a81a9e9fc8a4532766, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_12
+    second: {fileID: 2100000, guid: c0216a8ce82a942acb60494a83725141, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_13
+    second: {fileID: 2100000, guid: d15837d0786aa422db7f12e83f70a32f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_13_252
+    second: {fileID: 2100000, guid: 394720627fb994d0fa40458f64fb4529, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_14
+    second: {fileID: 2100000, guid: 0908a0b4bab414a3da3f92fb82312af2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_14_249
+    second: {fileID: 2100000, guid: ca642c0030a3d41fd947d3fe7a73d6f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_15
+    second: {fileID: 2100000, guid: 0e4ab3d88dd5740d58a35da3c6ce07e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_2
+    second: {fileID: 2100000, guid: b563b0b83b5c44e668bb45fa8152b80b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_6
+    second: {fileID: 2100000, guid: 1f94733dc18a54c02b0748dd7eeaff2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_6_256
+    second: {fileID: 2100000, guid: e8d5e2d4e9d274a39b23211ab2d79318, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_7
+    second: {fileID: 2100000, guid: f2b8abdf172e14618be8905a26df1fa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_7_16
+    second: {fileID: 2100000, guid: b97f0c05add7d4654a5b61a8d78ed66b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_8
+    second: {fileID: 2100000, guid: 9c034ad2c7db54d07b19acb44cf21ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_8_17
+    second: {fileID: 2100000, guid: 99a0d169760b548b485d82cead3bca41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Brass_Ceiling_9
+    second: {fileID: 2100000, guid: 54990550f5c55407f8092787b7f1eedf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Corrogated_Shiny_1
+    second: {fileID: 2100000, guid: 476eee53cb5c64b599d2fea5e67f5673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Corrogated_Shiny_1_254
+    second: {fileID: 2100000, guid: 65b82444537e6424ea54db267a36b606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Corrogated_Shiny_2
+    second: {fileID: 2100000, guid: c1ab87143899e4185802142279dc805c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Corrogated_Shiny_3
+    second: {fileID: 2100000, guid: e32a9587c46454cfea23a275f329a8f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Embossed_1
+    second: {fileID: 2100000, guid: 4369a34036af44bae8c2f5504469dece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Embossed_1_257
+    second: {fileID: 2100000, guid: 061a57d57e13e4c44988cac6eecd8315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Embossed_2
+    second: {fileID: 2100000, guid: 30343ade7aeee428ca21f452a1a5a771, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Embossed_2_8
+    second: {fileID: 2100000, guid: 69f24fdebc1ff4a5e833faae3e0b2f18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Embossed_3
+    second: {fileID: 2100000, guid: 3c24236526b61453ba746267d1b3328c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b
+    second: {fileID: 2100000, guid: efead36428077488ebdeef6270840aae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banana2
+    second: {fileID: 2100000, guid: 88bd8a34c7757423bb905215e3fe15f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bananas
+    second: {fileID: 2100000, guid: 979b14c584a38427195e2b376eb84e07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabbage-soup-diet-1
+    second: {fileID: 2100000, guid: 5e4cd3781abd64529a962bd3e9870031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabbage-soup-diet-1_15
+    second: {fileID: 2100000, guid: e024b7e37d7ce416ba84ae077a52336d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: img10231774317
+    second: {fileID: 2100000, guid: 31f1fa8dcc91a4e6080e9636d07ebce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: img10231774317_1
+    second: {fileID: 2100000, guid: b66bfb483469b49ed91ca254ce74193d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: img10231774317_2
+    second: {fileID: 2100000, guid: c63b049690021490b88ab43891a1bb56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: img10231774317_259
+    second: {fileID: 2100000, guid: 82ac4260435c648f281d1b9d69f7ab56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: bd311e39fca4f4a31a6a26d971ce8413, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_1
+    second: {fileID: 2100000, guid: f018387a519b54f3b86fe6cd980bd419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_2
+    second: {fileID: 2100000, guid: 9cc1b40abd15946d2a022a5c38b42061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_4
+    second: {fileID: 2100000, guid: e4b33ceaae0f74a94bf67b502d90fc4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch
+    second: {fileID: 2100000, guid: b22c212241e1d4ec39acae9f1c4444ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_100
+    second: {fileID: 2100000, guid: ac2cd36110d2b4e0ca52da04db4dd706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_101
+    second: {fileID: 2100000, guid: 34dc8b68d4ec24651a44bce4af542c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_102
+    second: {fileID: 2100000, guid: 8ccbdcf0f87954911b7531ea3e957dde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_103
+    second: {fileID: 2100000, guid: 3e9078349bbdc4c2493ffa85e0889184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_104
+    second: {fileID: 2100000, guid: 2596d047611764d4d9cadbd5edf05823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_105
+    second: {fileID: 2100000, guid: 430946fde94ca4ef99f2b338bc0daccf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_106
+    second: {fileID: 2100000, guid: a7541502800c44af7be08a582d0623f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_107
+    second: {fileID: 2100000, guid: 76063c3734573441b843315ce93b939d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_108
+    second: {fileID: 2100000, guid: e138b1b09318f44f4a23377e1b77014c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_109
+    second: {fileID: 2100000, guid: b0317da8f1e4a4102a06f876cc57f541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_110
+    second: {fileID: 2100000, guid: 8fbbdc26612594714a9a8b117f322991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_111
+    second: {fileID: 2100000, guid: 3790d7df8ecdc494ebbe5ee8053b9c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_112
+    second: {fileID: 2100000, guid: 75d8eeba56cf048cab3bd431e863643f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_113
+    second: {fileID: 2100000, guid: 04d718a44ef3b4959a61192d634eac13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_114
+    second: {fileID: 2100000, guid: 147f3a7f009574199a399ad6e6fb7d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_115
+    second: {fileID: 2100000, guid: a818350093dff4f4a8cd177056e57628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_116
+    second: {fileID: 2100000, guid: b5fd837948c0d427e9a7225e47c59264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_117
+    second: {fileID: 2100000, guid: 611e10da234d14bffa6d8edefc31db02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_118
+    second: {fileID: 2100000, guid: f03eaca34a4a9493ca919ce3494dc779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_119
+    second: {fileID: 2100000, guid: 32c6d045ea1ae46939d1ce967567cc07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_120
+    second: {fileID: 2100000, guid: 0713a7f6bf8b6473ba2200426218b995, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_121
+    second: {fileID: 2100000, guid: 461252dbef04b44e699cfabfdc618882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_122
+    second: {fileID: 2100000, guid: ed59094646fd044cdb97d138e6eed892, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_123
+    second: {fileID: 2100000, guid: c121b34c5366c45b0aaf72d92165f3e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_124
+    second: {fileID: 2100000, guid: 32e184ffb264d48569ad643a7e8797c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_125
+    second: {fileID: 2100000, guid: 645c8f8fd25d74c9ea6e2d9e1e8fa303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_126
+    second: {fileID: 2100000, guid: ffcfc270c1b03447bbef01ca5f6c176a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_127
+    second: {fileID: 2100000, guid: 2f520f83cc4cd411b8cbf45daacec6b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_128
+    second: {fileID: 2100000, guid: 1af9294568d3845049551e6579584b8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_129
+    second: {fileID: 2100000, guid: 8a2ce293149fa457d80a710cb9357002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_130
+    second: {fileID: 2100000, guid: ce92e0f677ca244418cfbd462b2d232e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_131
+    second: {fileID: 2100000, guid: facc52692be3e431680b5b46f7e0fc2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_132
+    second: {fileID: 2100000, guid: df1a516e465d94ed5a0175e3e9523ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_133
+    second: {fileID: 2100000, guid: ecde9e8135b2d4a0a9a75aff182053ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_134
+    second: {fileID: 2100000, guid: c0008fedc1cb442bcb61b875d0b66db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_135
+    second: {fileID: 2100000, guid: c5449b0fddce44e06aca26db3baab2a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_136
+    second: {fileID: 2100000, guid: a7d6e86ae2d7448be940ae2ee3e2dc99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_137
+    second: {fileID: 2100000, guid: 3b223ee5d94fc47c39bef2425037d5d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_138
+    second: {fileID: 2100000, guid: 8a1d596788d7d467c818a448a0311032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_139
+    second: {fileID: 2100000, guid: f77de577f323648ba9fa29e46e734297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_140
+    second: {fileID: 2100000, guid: dbb6d50414112478ca0df3003aef053c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_141
+    second: {fileID: 2100000, guid: 757c79bfaa208421db0a4c474ff4d275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_142
+    second: {fileID: 2100000, guid: 8d1346c8278994ae08e696f7b9bbf40d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_143
+    second: {fileID: 2100000, guid: e48da476b3383422c8a740bef6785b66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_144
+    second: {fileID: 2100000, guid: 80b781b20982545ff82aeddd21cc360c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_145
+    second: {fileID: 2100000, guid: 85ddbde5974ba440f9f5ccc9eaee25ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_146
+    second: {fileID: 2100000, guid: 2262778991fc74b3fa69056c7f14f29e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_147
+    second: {fileID: 2100000, guid: c9cd7ee94a7304779bf438af75a38ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_148
+    second: {fileID: 2100000, guid: d8d58584fc68e49528687a930242b111, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_149
+    second: {fileID: 2100000, guid: 0fe3cd94c42bd46ee837102584ac730d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_150
+    second: {fileID: 2100000, guid: 62b80465810774d21ab0636a794f53a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_151
+    second: {fileID: 2100000, guid: 13b46d59fa5da4c61acaf245cc11277c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_152
+    second: {fileID: 2100000, guid: 6205aec4d3a9e4d72b218b70c6e74e30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_153
+    second: {fileID: 2100000, guid: ac811598979834ee8890c0692aaeb508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_154
+    second: {fileID: 2100000, guid: 0856b6aab3aa04e9cb1c594d9804ead2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_155
+    second: {fileID: 2100000, guid: 4467aceaf686340839937c09847f3a3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_156
+    second: {fileID: 2100000, guid: 504eab37c2e964342a504ff00e562fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_157
+    second: {fileID: 2100000, guid: dd5d0fcd57aaa4de49abb36b5f29e823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_158
+    second: {fileID: 2100000, guid: 0ffc4cbbbac3a41a2b6d342acc080ab0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_159
+    second: {fileID: 2100000, guid: c0a352fac45ae4c47898cb6a6f87d99e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_160
+    second: {fileID: 2100000, guid: a422efb063d86488d989c9bfe11c0e09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_161
+    second: {fileID: 2100000, guid: 19127945dff83415e984761051358ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_162
+    second: {fileID: 2100000, guid: 17fc9433d56d04dc38cd8d2fcfd3625b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_163
+    second: {fileID: 2100000, guid: 826f846f5341143b1b43c8911c79a05e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_164
+    second: {fileID: 2100000, guid: 888a37b92cb514ce68b7afc79e7c4c36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_165
+    second: {fileID: 2100000, guid: a88ec0ddd719549568b36a00d409b7ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_166
+    second: {fileID: 2100000, guid: 24497bcc90fcf43a79fe47d11f8649b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_167
+    second: {fileID: 2100000, guid: ea0dca64219f14159a60941a2222c759, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_168
+    second: {fileID: 2100000, guid: 544ea6d3859684025b9c270ac02fa2c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_169
+    second: {fileID: 2100000, guid: 0df360a6e494c491c9b90dad7363d6f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_170
+    second: {fileID: 2100000, guid: 76b0dfde21b3141fa839a97b7ca7388f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_171
+    second: {fileID: 2100000, guid: cba7de3aa87e24c0e9d9c54c98fac17d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_172
+    second: {fileID: 2100000, guid: 2f6e054607b6243458a2cd1f95dc93d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_173
+    second: {fileID: 2100000, guid: 68f5954c02eff4c00b2e058359cbc464, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_174
+    second: {fileID: 2100000, guid: 68483adfe7672419db79dba2e7983a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_175
+    second: {fileID: 2100000, guid: fe5db236c7a354ae5a7b2ff25c63b8bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_176
+    second: {fileID: 2100000, guid: 9da8f14b9a75d4d4f8112e7e3d7314fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_177
+    second: {fileID: 2100000, guid: baafe8aaccc7240dcb77c60db6a8bac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_178
+    second: {fileID: 2100000, guid: 27ccc6c1b94b74c13b60b39bc444027b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_179
+    second: {fileID: 2100000, guid: 24f1fd317b3564c9c8d8d1f6e9f810c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_180
+    second: {fileID: 2100000, guid: 1f693297404de49758c2ff95346308d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_181
+    second: {fileID: 2100000, guid: 9c9b57cd6c66b4bf5aa02245e2926631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_182
+    second: {fileID: 2100000, guid: 8431611d23f3049f9814ce188d53105c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_183
+    second: {fileID: 2100000, guid: 35cbe49e37b07485a93647309f2b6f08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_184
+    second: {fileID: 2100000, guid: 4e6af7f6234db466b9444d9590091dcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_185
+    second: {fileID: 2100000, guid: b7f8e4c06d5634b0d9e0c5e74097d9bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_186
+    second: {fileID: 2100000, guid: 63b52058a78ce4a4cb2c05244ba8bbf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_187
+    second: {fileID: 2100000, guid: 37d1332c8930846f9a7237e7b3bdec02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_188
+    second: {fileID: 2100000, guid: 2e50d2c44dd9742b5aedfb4e6cf76e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_189
+    second: {fileID: 2100000, guid: ab70b5da0a8cb4f84aac75888246709b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_190
+    second: {fileID: 2100000, guid: 52a888d98367a4605ad76d9305efa6e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_191
+    second: {fileID: 2100000, guid: 5ac84aad119474552adfbd2df2816bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_192
+    second: {fileID: 2100000, guid: 88737d170eaa24199baf2e2c080dcabe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_193
+    second: {fileID: 2100000, guid: 78d2e4c9ea75f48b9b9ea1904db43861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_194
+    second: {fileID: 2100000, guid: 47e90db2bc9db42a5a69918847e27f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_195
+    second: {fileID: 2100000, guid: 744d8681f3a4a4b6c9432db057151f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_196
+    second: {fileID: 2100000, guid: 76c01cdec1fbe4f80b8b5f7c4e6d23c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_197
+    second: {fileID: 2100000, guid: 5cde6fc75edea43a48117b43380fcbb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_198
+    second: {fileID: 2100000, guid: 50cd9069d01774b3ebaa158a37750d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_199
+    second: {fileID: 2100000, guid: dfd15695ca3b14f40acf2217fb4eca20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_20
+    second: {fileID: 2100000, guid: ea43bc737b3dd4c89b673164146f02a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_200
+    second: {fileID: 2100000, guid: 87ad862f8e77b40759144ebeeceff011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_201
+    second: {fileID: 2100000, guid: 4faab70f28de443e18e68d64bcb4a968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_202
+    second: {fileID: 2100000, guid: 084d19f5f48c14b29b90d5d718aa3545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_203
+    second: {fileID: 2100000, guid: 4d63316db48d344fe846057a90b52cb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_204
+    second: {fileID: 2100000, guid: 35260a9030242414f9ca82071db2da48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_205
+    second: {fileID: 2100000, guid: e4546e06b80734ac8a4fe37ebfe6e834, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_206
+    second: {fileID: 2100000, guid: cf2e5fb68f93a42d19d25163d5fff0d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_207
+    second: {fileID: 2100000, guid: 49e37900ece174b248809c55301f3f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_208
+    second: {fileID: 2100000, guid: 43bce128255da463d8a8d42331716721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_209
+    second: {fileID: 2100000, guid: f7452b99cb20e4bbe8479d704a7cc34e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_21
+    second: {fileID: 2100000, guid: 252fc1cd77f0147d5b667c386368dcf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_210
+    second: {fileID: 2100000, guid: 88f62d018f75c4027a31b65bbab7d053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_211
+    second: {fileID: 2100000, guid: 688a839e174d44cce91978be55435bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_212
+    second: {fileID: 2100000, guid: 23534ac841a4041348e90cab327c1fe9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_213
+    second: {fileID: 2100000, guid: c0caafba29c7c4aec9ef86e15df93a34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_214
+    second: {fileID: 2100000, guid: 49126548a80034d7cbe24e724b0562db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_215
+    second: {fileID: 2100000, guid: 565025c1b1e0c455992d001fab5cc028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_216
+    second: {fileID: 2100000, guid: 43ea732178a0e4a77be3d9220ffae52f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_217
+    second: {fileID: 2100000, guid: 008cf46c469a3461eab9b2342375152e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_218
+    second: {fileID: 2100000, guid: aae31b8dddfb84e12be3872d92f9bff4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_219
+    second: {fileID: 2100000, guid: 6a57286eedd654a0f836077bda6f9a16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_22
+    second: {fileID: 2100000, guid: 8ab5b98dd38694ea9b5a30d5e4a8a9df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_220
+    second: {fileID: 2100000, guid: e98774a19985444799306a903c79efe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_221
+    second: {fileID: 2100000, guid: f1060e6b489ef4aef9ba1e1bcf57c0db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_222
+    second: {fileID: 2100000, guid: f0e6ae45eb4214de6b1413a1128608d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_223
+    second: {fileID: 2100000, guid: 79ec99a4ebe254ee49afc7b9151e9841, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_224
+    second: {fileID: 2100000, guid: 947112362e399491b91b16a53f8a4900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_225
+    second: {fileID: 2100000, guid: 65a0e9b34b21948729a8fbcca9cdd907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_226
+    second: {fileID: 2100000, guid: 6b1bb25c726694a2aae1ec1587bd9005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_227
+    second: {fileID: 2100000, guid: c2399f1257be94508a6e6528dbc3db86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_228
+    second: {fileID: 2100000, guid: 011cb7adfd49f4fc390d3ce6dbf31679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_229
+    second: {fileID: 2100000, guid: 5bbafb5636f35418193ed7505c984d7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_23
+    second: {fileID: 2100000, guid: 9832c1e6dcac148fc86ec43a34fdf9bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_230
+    second: {fileID: 2100000, guid: c7134083341654851b6c39c4884ef4a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_231
+    second: {fileID: 2100000, guid: 85e9028ac0626435f83cc6244454a4de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_232
+    second: {fileID: 2100000, guid: ad9ea697073ec4d54ad459e87a39b9e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_233
+    second: {fileID: 2100000, guid: 928e3abff88fc46e18d18d5e0cc60191, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_234
+    second: {fileID: 2100000, guid: 2286192a563504ded89b4e55bd931c88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_235
+    second: {fileID: 2100000, guid: eeafeddd5ea114b85b28c90eb20594b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_236
+    second: {fileID: 2100000, guid: a495d33e3f2584d6f884db9e9c7b97ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_237
+    second: {fileID: 2100000, guid: 2b29230cfa37b47218c75296a736836a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_238
+    second: {fileID: 2100000, guid: 9268b9b27c4694cf3a47c50d0136d4fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_239
+    second: {fileID: 2100000, guid: e375e1919f1b844b0871573f9ef098e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_24
+    second: {fileID: 2100000, guid: 5d134db9c4e0a4e209e72d4bec8ec3bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_240
+    second: {fileID: 2100000, guid: d1cb67b255bd749b0bcbd4a5cf29ff96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_241
+    second: {fileID: 2100000, guid: fa3daa9d7d08440408f2c168b607a743, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_242
+    second: {fileID: 2100000, guid: 76b553bfc636045858db438bfaab514e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_243
+    second: {fileID: 2100000, guid: 2a43ca5ff2cb04d6795fedc6db152483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_244
+    second: {fileID: 2100000, guid: a62a4eec2a73c46e5abe20f9bdf49e68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_245
+    second: {fileID: 2100000, guid: 3e3bdfbb206ae4d57bad4714f692819b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_246
+    second: {fileID: 2100000, guid: d7fa4c6b2974f4a8997b62dcc36abf5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_247
+    second: {fileID: 2100000, guid: 4ba6eba27c63e4bf789470ca3866b90d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_25
+    second: {fileID: 2100000, guid: 4120527f252804cbb963d55ef8fd7dc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_26
+    second: {fileID: 2100000, guid: 4b430ae1aa8894a67837aca9394f198a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_27
+    second: {fileID: 2100000, guid: 54edeee9bf40f4e20a81f7167735451a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_28
+    second: {fileID: 2100000, guid: 5535b30232d5946599d074144b141935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_29
+    second: {fileID: 2100000, guid: 72ae34dacd35f499ca781375b438fcfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_30
+    second: {fileID: 2100000, guid: 766901f4822f444c09b52eefd5f7f9ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_31
+    second: {fileID: 2100000, guid: 94d2e90a3ad7a49dbac7297bc2fa0962, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_32
+    second: {fileID: 2100000, guid: 4cc01c650239e4d8cad4dfcdac89c728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_33
+    second: {fileID: 2100000, guid: 2478678c8f0fb493789ce05d4dd632e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_34
+    second: {fileID: 2100000, guid: d3a3d5903c4ec4993b190246eb3231ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_35
+    second: {fileID: 2100000, guid: 89f4c5b9355584f9bb5345ad40266110, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_36
+    second: {fileID: 2100000, guid: 5d0260b9c336a40fb970b390a8350fdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_37
+    second: {fileID: 2100000, guid: b669c519a331e47b798d9885d10ddb73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_38
+    second: {fileID: 2100000, guid: 52521ebedb30e4d09a0306384402d89d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_39
+    second: {fileID: 2100000, guid: 3f51aa056f11c440b8376066e55aca1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_40
+    second: {fileID: 2100000, guid: e46b69c4796184a19aab6e62a8379345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_41
+    second: {fileID: 2100000, guid: 9c0d3efa0fa6c4083b56252ff6e866e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_42
+    second: {fileID: 2100000, guid: 796f68e2f67604311b76f787a106bce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_43
+    second: {fileID: 2100000, guid: 34b7828fd69354a74bd9d09afb3d3f89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_44
+    second: {fileID: 2100000, guid: 293c365c44d48469a82684154d676074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_45
+    second: {fileID: 2100000, guid: 8c8673ebb666943d5877c998cda48dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_46
+    second: {fileID: 2100000, guid: e5227407a0493446999ab9d886a70d72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_47
+    second: {fileID: 2100000, guid: e083c6abd13214d4a92cc772b88e2129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_48
+    second: {fileID: 2100000, guid: 472ef200f053747c88049e59fc74bb6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_49
+    second: {fileID: 2100000, guid: f8f044859dd004940b92e4255e4b8f6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_50
+    second: {fileID: 2100000, guid: d794be07161514721a0b096138f517fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_51
+    second: {fileID: 2100000, guid: e43afb5960bea4f2d95620c594306ddd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_52
+    second: {fileID: 2100000, guid: 34f3ae8756be849c5a5c7cf8080b8c1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_53
+    second: {fileID: 2100000, guid: 88ef11f97689540fe824bfd832aa7f02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_54
+    second: {fileID: 2100000, guid: 37f442b727ee04c9cb53abbe6ef6e0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_55
+    second: {fileID: 2100000, guid: e725bd4915734436096bd67012dc8888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_56
+    second: {fileID: 2100000, guid: 9ee27b4a5daa64237937b425ca556c0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_57
+    second: {fileID: 2100000, guid: ccef0e73779fb4f66a500ec7ecfbd7c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_58
+    second: {fileID: 2100000, guid: eb6b525045d2f44f3a7306e0c3ae6b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_59
+    second: {fileID: 2100000, guid: ae948bdab16424c259289a4c477230bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_60
+    second: {fileID: 2100000, guid: f6ae2fe3ea04e4dbdb1e626974677680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_61
+    second: {fileID: 2100000, guid: b36fb7980ed1f453fbe4d40fe6014925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_62
+    second: {fileID: 2100000, guid: 5a110bd9b72e14e758d097e84c14736c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_63
+    second: {fileID: 2100000, guid: 6c34e9c5a0f9e4ec19636a490c549159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_64
+    second: {fileID: 2100000, guid: 08f29c2a5f5b24a418e930a638de6219, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_65
+    second: {fileID: 2100000, guid: a73b0b18203c94d1cba43dca9fd4f69b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_66
+    second: {fileID: 2100000, guid: cae8afc7a96784086ad81391b05f9298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_67
+    second: {fileID: 2100000, guid: 8a8472f068f494e0384759fe703d8bfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_68
+    second: {fileID: 2100000, guid: f69e975f3f90b4c699db397e0d2eca4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_69
+    second: {fileID: 2100000, guid: 51235728e91164161aaea769cee2922c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_70
+    second: {fileID: 2100000, guid: 733ab967f09c0499d845739411074610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_71
+    second: {fileID: 2100000, guid: b147d4a237e564a62bee54b3b243dee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_72
+    second: {fileID: 2100000, guid: 306a824c0bde3408e899f431c4b66ca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_73
+    second: {fileID: 2100000, guid: c7404e6eb21634f4cb89f1c50c416a00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_74
+    second: {fileID: 2100000, guid: 80e76e186c2cb4ec98e6ad3d180120c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_75
+    second: {fileID: 2100000, guid: 815f6b50f39af4399b99a52f285c290b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_76
+    second: {fileID: 2100000, guid: 9c82e624c0d7c4112a3b048a76973d00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_77
+    second: {fileID: 2100000, guid: 33ecacf597f644af7bf9bee9bfeccbbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_78
+    second: {fileID: 2100000, guid: be1346c3511d1492788b0998768c9558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_79
+    second: {fileID: 2100000, guid: e9a713e430ef040e7ae9325d1940f8b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_80
+    second: {fileID: 2100000, guid: 364f704cf36c443c69efd3f97731e029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_81
+    second: {fileID: 2100000, guid: cad92939f560f4171b2dbced6d5b1be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_82
+    second: {fileID: 2100000, guid: b5988199d96164056abfad2415b60155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_83
+    second: {fileID: 2100000, guid: 3f44f31457d5c4c4fa8d1177d1909faa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_84
+    second: {fileID: 2100000, guid: bb03c4cf7c85f400f877baba96c47ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_85
+    second: {fileID: 2100000, guid: 8bb18582638d949729c38b0709ec5a70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_86
+    second: {fileID: 2100000, guid: 2e32140fe578142889f707c6fa10219a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_87
+    second: {fileID: 2100000, guid: deb04238f61994f70a05ce637cd05d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_88
+    second: {fileID: 2100000, guid: c0adfb118aeb04718b7c73620844941d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_89
+    second: {fileID: 2100000, guid: a37898136246145d6b621348dad66152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_90
+    second: {fileID: 2100000, guid: 5e239428a54db4afcb10993a4116c22d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_91
+    second: {fileID: 2100000, guid: 020c8aaa3c1cd47aaa49f6072d81ce57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_92
+    second: {fileID: 2100000, guid: 675f705203b76497a9c651c8cdc39cb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_93
+    second: {fileID: 2100000, guid: fb9f734be8eb746cfa81b4bae0c660a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_94
+    second: {fileID: 2100000, guid: 7178ab86790074eb3b759ab4d9e6b8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_95
+    second: {fileID: 2100000, guid: 229003cd1fb854354ba4ed5ad26ca30e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_96
+    second: {fileID: 2100000, guid: c16e7b6235f954a989ea506a99bc35b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_97
+    second: {fileID: 2100000, guid: 5673e5a4733dd4282b9d581dde935be8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_98
+    second: {fileID: 2100000, guid: 3a9963a75f84e4ac9aa691acb2e59396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ttar_watermelon_01_v_launch_99
+    second: {fileID: 2100000, guid: 1061310d8c4bd4479a6f31ddfdc4cfc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: watermelon-2
+    second: {fileID: 2100000, guid: 3fdb422a3f4e34109a0004d8eec0389c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yy
+    second: {fileID: 2100000, guid: 86e803bc535da420a985e9118fdf465a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
