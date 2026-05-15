@@ -14261,7 +14261,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125530275}
   m_Mesh: {fileID: 9108004121902985896, guid: c9cbd7f449a1744968befd27d5683c89, type: 3}
-<<<<<<< Updated upstream
 --- !u!1001 &126317483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14341,8 +14340,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1492666635}
   m_SourcePrefab: {fileID: 100100000, guid: d6a254341d5d342d6b6e5f44514c150e, type: 3}
-=======
->>>>>>> Stashed changes
 --- !u!1 &126614901
 GameObject:
   m_ObjectHideFlags: 0
