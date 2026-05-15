@@ -6,15 +6,21 @@ public class CustomerNPC : MonoBehaviour
     NavMeshAgent agent;
     float waitTimer = 0f;
     bool isWaiting = false;
+    Animator animator;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+        agent.speed = 1.5f;
         GoToRandomPoint();
     }
 
     void Update()
     {
+        animator.SetFloat("Speed", agent.velocity.magnitude);
+        animator.speed = agent.velocity.magnitude / 1.5f;
+
         if (isWaiting)
         {
             waitTimer -= Time.deltaTime;
@@ -35,12 +41,12 @@ public class CustomerNPC : MonoBehaviour
 
     void GoToRandomPoint()
     {
-        // Picks a random point within 15 units around the NPC
-        Vector3 randomDirection = Random.insideUnitSphere * 8f;
+        // Allows a NPC to picks a random point.
+        Vector3 randomDirection = Random.insideUnitSphere * 30f;
         randomDirection += transform.position;
 
         UnityEngine.AI.NavMeshHit hit;
-        if (UnityEngine.AI.NavMesh.SamplePosition(randomDirection, out hit, 15f, 1))
+        if (UnityEngine.AI.NavMesh.SamplePosition(randomDirection, out hit, 30f, 1))
         {
             agent.SetDestination(hit.position);
         }

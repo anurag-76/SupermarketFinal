@@ -78,7 +78,9 @@ public class NPCSpawner : MonoBehaviour
         if (NavMesh.SamplePosition(randomDirection, out hit, spawnRadius, NavMesh.AllAreas))
         {
             int randomIndex = Random.Range(0, npcPrefabs.Length);
-            GameObject npc = Instantiate(npcPrefabs[randomIndex], hit.position, Quaternion.identity);
+            GameObject npc = Instantiate(npcPrefabs[randomIndex],
+                new Vector3(hit.position.x, hit.position.y + 1f, hit.position.z),
+                Quaternion.identity);
             activeNPCs.Add(npc);
         }
     }
