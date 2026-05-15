@@ -76218,7 +76218,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcPrefabs:
   - {fileID: 1280947153589388424, guid: 27f3004f0c5c7e14bb7c09571ad18167, type: 3}
-  maxNPCs: 13
+  - {fileID: 3037149040415076300, guid: 7e5bd7408f49c9440a0f194b402955b8, type: 3}
+  - {fileID: 6962114759975385970, guid: 78184099be8500048b6b23972cfbbfc5, type: 3}
+  - {fileID: 7517902797215719749, guid: 1c55c17de574bf049a0674e532e1e7bc, type: 3}
+  - {fileID: 1116076242792054086, guid: 10fb36926f2983442a17b8d3d3de5f33, type: 3}
+  maxNPCs: 10
   spawnRadius: 40
   despawnRadius: 60
   spawnCheckInterval: 2
