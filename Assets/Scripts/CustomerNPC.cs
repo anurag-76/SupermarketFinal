@@ -19,7 +19,7 @@ public class CustomerNPC : MonoBehaviour
     void Update()
     {
         animator.SetFloat("Speed", agent.velocity.magnitude);
-        animator.speed =1f;
+        animator.speed = agent.velocity.magnitude / 1.5f;
 
         if (isWaiting)
         {
