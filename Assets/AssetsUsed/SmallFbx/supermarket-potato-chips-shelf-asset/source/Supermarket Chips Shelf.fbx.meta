@@ -3,7 +3,27 @@ guid: 6ce7ef59f9b1d46d3970a9771052f542
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Supermarket Chips Shelf
+    second: {fileID: 2100000, guid: 220b0715fc6224c88876574d3e8952fe, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Supermarket Chips Shelf Color 2k
+    second: {fileID: 2800000, guid: eeb746f1b1b7b4707b96593ed54aa75d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Supermarket Chips Shelf Normal 2k
+    second: {fileID: 2800000, guid: d3abcd502ecbe4fe89ed2ee1e3caeb8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Supermarket Chips Shelf Roughness 2k
+    second: {fileID: 2800000, guid: 3d710fa3b55334a35af2d068af30b51a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
