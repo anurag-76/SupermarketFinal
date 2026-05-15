@@ -4,6 +4,7 @@ using System.Collections;
 public class ClerkNPC : MonoBehaviour
 {
     Animator animator;
+
     float timer = 0f;
     float nextActionTime = 0f;
     bool isInSequence = false;
@@ -16,82 +17,81 @@ public class ClerkNPC : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+
         animator.CrossFade("Wave", 0.25f);
-        SetNextAction();
+
+        nextActionTime = Random.Range(3f, 6f);
     }
 
     void Update()
     {
-        if (!isInSequence)
+        if (isInSequence) return;
+
+        timer += Time.deltaTime;
+
+        if (timer >= nextActionTime)
         {
-            timer += Time.deltaTime;
+            string chosen = standingActions[Random.Range(0, standingActions.Length)];
 
-            if (timer >= nextActionTime)
+            if (chosen == "StandToSit")
             {
-                string chosen = standingActions[Random.Range(0, standingActions.Length)];
-
-                if (chosen == "StandToSit")
-                {
-                    StartCoroutine(SittingSequence());
-                }
-                else
-                {
-                    animator.CrossFade(chosen, 0.25f);
-
-                    if (chosen == "Wave")
-                        nextActionTime = GetClipLength("Wave") + Random.Range(4f, 8f);
-                    else
-                        nextActionTime = GetClipLength(chosen) + Random.Range(2f, 5f);
-
-                    timer = 0f;
-                }
+                StartCoroutine(SittingSequence());
             }
+            else
+            {
+                PlayAction(chosen);
+            }
+
+            timer = 0f;
+            nextActionTime = Random.Range(4f, 8f);
         }
+    }
+
+    void PlayAction(string stateName)
+    {
+        animator.CrossFade(stateName, 0.25f);
     }
 
     IEnumerator SittingSequence()
     {
         isInSequence = true;
 
-        animator.CrossFade("StandToSit", 0.25f);
-        yield return new WaitForSeconds(GetClipLength("StandToSit"));
+        yield return PlayAndWait("StandToSit");
+        yield return PlayAndWait("Sitting");
 
-        animator.CrossFade("Sitting", 0.25f);
         yield return new WaitForSeconds(Random.Range(2f, 4f));
 
-        animator.CrossFade("SitToType", 0.25f);
-        yield return new WaitForSeconds(GetClipLength("SitToType"));
+        yield return PlayAndWait("SitToType");
+        yield return PlayAndWait("Typing");
 
-        animator.CrossFade("Typing", 0.3f);
         yield return new WaitForSeconds(Random.Range(8f, 18f));
 
-        animator.CrossFade("TypeToSit", 0.25f);
-        yield return new WaitForSeconds(GetClipLength("TypeToSit"));
-
-        animator.CrossFade("Sitting", 0.25f);
-        yield return new WaitForSeconds(Random.Range(2f, 4f));
-
-        animator.CrossFade("SitToStand", 0.25f);
-        yield return new WaitForSeconds(GetClipLength("SitToStand"));
+        yield return PlayAndWait("TypeToSit");
+        yield return PlayAndWait("Sitting");
 
         yield return new WaitForSeconds(Random.Range(2f, 4f));
+
+        yield return PlayAndWait("SitToStand");
 
         isInSequence = false;
-        SetNextAction();
     }
 
-    float GetClipLength(string clipName)
+    IEnumerator PlayAndWait(string stateName)
     {
-        foreach (AnimationClip clip in animator.runtimeAnimatorController.animationClips)
-            if (clip.name == clipName) return clip.length;
+        animator.CrossFade(stateName, 0.25f);
 
-        Debug.LogWarning("Clip not found: " + clipName);
-        return 1.5f;
-    }
+        // Wait until animation is actually playing
+        yield return null;
 
-    void SetNextAction()
-    {
-        timer = 0f;
-        nextActionTime = Random.Range(6f, 12f);
+        // Get current state info
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+        float waitTime = stateInfo.length;
+
+        // fallback safety
+        if (waitTime <= 0f)
+            waitTime = 1.5f;
+
+        yield return new WaitForSeconds(waitTime);
     }
 }
