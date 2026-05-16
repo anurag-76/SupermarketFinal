@@ -9,6 +9,7 @@ TagManager:
   - Vehicle
   - Cart
   - Gate
+  - ShowCase
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Water
   - UI
   - Item
-  - 
+  - Showcase
   - 
   - 
   - 
