@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2077744598563446705
+--- !u!1 &2928707841355980510
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5502388189093454465}
-  - component: {fileID: 167105236860263295}
-  - component: {fileID: 8403026054968624085}
-  - component: {fileID: 825791691764141337}
-  - component: {fileID: 453224832836798946}
-  - component: {fileID: 5691215901439525501}
+  - component: {fileID: 6339569285160033620}
+  - component: {fileID: 2934195270939847338}
+  - component: {fileID: 584729645214533289}
+  - component: {fileID: 4768538515228288790}
+  - component: {fileID: 3028987218603263605}
   m_Layer: 0
   m_Name: BowlingBall
   m_TagString: Untagged
@@ -21,36 +20,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5502388189093454465
+--- !u!4 &6339569285160033620
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077744598563446705}
+  m_GameObject: {fileID: 2928707841355980510}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70434237, y: 0.40857166, z: -0.57373637, w: -0.088304155}
-  m_LocalPosition: {x: 438.72, y: 0.61029, z: 326.53}
-  m_LocalScale: {x: 289.84164, y: 289.84164, z: 289.84164}
+  m_LocalPosition: {x: 509.34, y: 0.33013, z: 286.5}
+  m_LocalScale: {x: 448.67487, y: 448.67487, z: 448.67487}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -216.386, y: -66.108, z: 36.091003}
---- !u!33 &167105236860263295
+--- !u!33 &2934195270939847338
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077744598563446705}
+  m_GameObject: {fileID: 2928707841355980510}
   m_Mesh: {fileID: 1062730958792506493, guid: 8b2a4f7313ce642dabb8cf86fc71e0ce, type: 3}
---- !u!23 &8403026054968624085
+--- !u!23 &584729645214533289
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077744598563446705}
+  m_GameObject: {fileID: 2928707841355980510}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -89,15 +88,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &825791691764141337
+--- !u!54 &4768538515228288790
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077744598563446705}
+  m_GameObject: {fileID: 2928707841355980510}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -115,14 +114,14 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!135 &453224832836798946
+  m_CollisionDetection: 1
+--- !u!135 &3028987218603263605
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077744598563446705}
+  m_GameObject: {fileID: 2928707841355980510}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -137,16 +136,3 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.0010501135
   m_Center: {x: 0.000028957844, y: 0.000013684854, z: 0.0000020872692}
---- !u!114 &5691215901439525501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077744598563446705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12f555184466547abbc88860ef7f9568, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  throwForce: 15
