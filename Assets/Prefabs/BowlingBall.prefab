@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8403026054968624085}
   - component: {fileID: 825791691764141337}
   - component: {fileID: 453224832836798946}
-  - component: {fileID: 5691215901439525501}
   m_Layer: 0
   m_Name: BowlingBall
   m_TagString: Untagged
@@ -97,7 +96,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077744598563446705}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -115,7 +114,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!135 &453224832836798946
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -137,16 +136,3 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.0010501135
   m_Center: {x: 0.000028957844, y: 0.000013684854, z: 0.0000020872692}
---- !u!114 &5691215901439525501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077744598563446705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12f555184466547abbc88860ef7f9568, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  throwForce: 15
