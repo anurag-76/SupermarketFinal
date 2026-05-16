@@ -10,6 +10,7 @@ TagManager:
   - Cart
   - Gate
   - ShowCase
+  - LoadingVehicles
   layers:
   - Default
   - TransparentFX
