@@ -17,11 +17,13 @@ public class VehicleMover : MonoBehaviour
 
     [Header("Horn Settings")]
     [SerializeField] private AudioClip hornSound;
+    [SerializeField, Range(0f, 1f)] private float hornVolume = 1f;     // ← New
     [SerializeField] private float minHonkInterval = 3f;
     [SerializeField] private float maxHonkInterval = 6f;
 
     private const float CLOSE_DISTANCE = 1;
     private const float SPEED = 10.0f;
+
     private float currentSpeed = 0f;
     private bool isBraking = false;
     private Vector3 movementDirection;
@@ -31,7 +33,7 @@ public class VehicleMover : MonoBehaviour
 
     void Start()
     {
-        // Get existing AudioSource or add one
+        // Get or add AudioSource
         audioSource = gameObject.GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
@@ -39,7 +41,9 @@ public class VehicleMover : MonoBehaviour
         audioSource.clip = hornSound;
         audioSource.playOnAwake = false;
         audioSource.spatialBlend = 1f;
-        audioSource.volume = 1f;
+        audioSource.volume = hornVolume;           // ← Volume applied here
+        audioSource.pitch = 1f;
+
         SetNextHonkTime();
     }
 
@@ -54,12 +58,10 @@ public class VehicleMover : MonoBehaviour
         if (distance > 0)
         {
             movementDirection = direction.normalized;
+            Quaternion rotation = flipLookDirection
+                ? Quaternion.LookRotation(-direction, Vector3.up)
+                : Quaternion.LookRotation(direction, Vector3.up);
 
-            Quaternion rotation;
-            if (flipLookDirection)
-                rotation = Quaternion.LookRotation(-direction, Vector3.up);
-            else
-                rotation = Quaternion.LookRotation(direction, Vector3.up);
             transform.rotation = rotation;
         }
 
@@ -76,15 +78,15 @@ public class VehicleMover : MonoBehaviour
         if (currentSpeed > 0)
         {
             Vector3 normDirection = direction / distance;
-            transform.position = transform.position + normDirection * currentSpeed * Time.deltaTime;
+            transform.position += normDirection * currentSpeed * Time.deltaTime;
         }
 
         if (distance < CLOSE_DISTANCE)
         {
-            if (target.Equals(waypoint1))           target = waypoint2;
-            else if (target.Equals(waypoint2))      target = waypoint3;
-            else if (target.Equals(waypoint3))      target = waypoint4;
-            else if (target.Equals(waypoint4))      target = waypoint1;
+            if (target.Equals(waypoint1)) target = waypoint2;
+            else if (target.Equals(waypoint2)) target = waypoint3;
+            else if (target.Equals(waypoint3)) target = waypoint4;
+            else if (target.Equals(waypoint4)) target = waypoint1;
         }
     }
 
@@ -93,8 +95,8 @@ public class VehicleMover : MonoBehaviour
         if (movementDirection == Vector3.zero) return;
 
         Vector3 frontPosition = transform.position + movementDirection * vehicleFrontOffset;
-
         RaycastHit hit;
+
         bool obstacleFound = Physics.SphereCast(
             frontPosition,
             sphereRadius,
@@ -141,7 +143,7 @@ public class VehicleMover : MonoBehaviour
     {
         if (hornSound != null && audioSource != null && !audioSource.isPlaying)
         {
-            audioSource.clip = hornSound;
+            audioSource.volume = hornVolume;     // Ensure volume is correct before playing
             audioSource.Play();
             Debug.Log("Honking!");
         }
@@ -159,18 +161,11 @@ public class VehicleMover : MonoBehaviour
         honkTimer = 0f;
     }
 
-    void OnDrawGizmos()
+    // Optional: Public method to change volume at runtime
+    public void SetHornVolume(float newVolume)
     {
-        if (movementDirection == Vector3.zero) return;
-        Vector3 frontPosition = transform.position + movementDirection * vehicleFrontOffset;
-        float dist = isBraking ? clearDistance : brakeDistance;
-
-        Gizmos.color = isBraking ? Color.red : Color.green;
-        Gizmos.DrawWireSphere(frontPosition, sphereRadius);
-        Gizmos.DrawWireSphere(frontPosition + movementDirection * dist, sphereRadius);
-        Gizmos.DrawLine(frontPosition + Vector3.up * sphereRadius,
-                        frontPosition + movementDirection * dist + Vector3.up * sphereRadius);
-        Gizmos.DrawLine(frontPosition - Vector3.up * sphereRadius,
-                        frontPosition + movementDirection * dist - Vector3.up * sphereRadius);
+        hornVolume = Mathf.Clamp01(newVolume);
+        if (audioSource != null)
+            audioSource.volume = hornVolume;
     }
 }
