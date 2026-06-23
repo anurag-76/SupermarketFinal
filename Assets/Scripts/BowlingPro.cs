@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class BowlingPro : MonoBehaviour
 {
     [SerializeField]
@@ -10,31 +9,26 @@ public class BowlingPro : MonoBehaviour
     private GameObject muzzle;
     [SerializeField]
     private float COOLDOWN_TIME = 0.5f;
-
     private float coolDown = 0;
     private bool playerInsideTrigger = false; // Is the player in the zone?
-
-    void Update()
+    void Update()
     {
-        // Only shoot if player is inside the trigger zone
-        if (playerInsideTrigger)
+        // Only shoot if player is inside the trigger zone
+        if (playerInsideTrigger)
         {
             if (coolDown <= 0)
             {
                 if (Input.GetButtonUp("Fire1"))
                 {
                     coolDown = COOLDOWN_TIME;
-
-                    // Instantiate the projectile
-                    Rigidbody aInstance = Instantiate(projectileRigidBody,
-                        muzzle.transform.position, transform.rotation) as Rigidbody;
-
-                    // Add force
-                    Vector3 forward = transform.TransformDirection(Vector3.forward);
+                    // Instantiate the projectile
+                    Rigidbody aInstance = Instantiate(projectileRigidBody,
+muzzle.transform.position, transform.rotation) as Rigidbody;
+                    // Add force
+                    Vector3 forward = transform.TransformDirection(Vector3.forward);
                     aInstance.AddForce(forward * projectilePower);
-
-                    // Destroy after 8 seconds
-                    Destroy(aInstance.gameObject, 8);
+                    // Destroy after 8 seconds
+                    Destroy(aInstance.gameObject, 8);
                 }
             }
             else
@@ -43,9 +37,8 @@ public class BowlingPro : MonoBehaviour
             }
         }
     }
-
-    // Called when something ENTERS the trigger zone
-    void OnTriggerEnter(Collider other)
+    // Called when something ENTERS the trigger zone
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -53,9 +46,8 @@ public class BowlingPro : MonoBehaviour
             Debug.Log("Player entered the zone — can shoot now!");
         }
     }
-
-    // Called when something EXITS the trigger zone
-    void OnTriggerExit(Collider other)
+    // Called when something EXITS the trigger zone
+    void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {

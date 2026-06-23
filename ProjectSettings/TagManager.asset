@@ -11,6 +11,7 @@ TagManager:
   - Gate
   - ShowCase
   - LoadingVehicles
+  - Ball
   layers:
   - Default
   - TransparentFX
