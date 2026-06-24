@@ -1,32 +1,45 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Collider))]
 public class ATMInteraction : MonoBehaviour
 {
-    public ATMUI atmUI; // Assign in Inspector
-    public PlayerBalance playerBalance;
+    [Header("Settings")]
+    public float interactRange = 3f;
+    public Camera playerCamera;
 
-    private void OnMouseDown()
+    [Header("UI")]
+    public GameObject interactPrompt; // Drag your PromptPanel here
+
+    private ATMUIManager atmUI;
+
+    void Start()
     {
-        if (playerBalance == null)
-            playerBalance = FindObjectOfType<PlayerBalance>();
-
-        atmUI.OpenATM(playerBalance);
+        atmUI = FindObjectOfType<ATMUIManager>();
+        interactPrompt.SetActive(false);
     }
 
-    // Optional: For better interaction (raycast from camera)
-    // Remove OnMouseDown and use this method instead if you prefer
-    /*
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (atmUI == null || atmUI.IsOpen) return;
+
+        Ray ray = playerCamera.ScreenPointToRay(
+            new Vector3(Screen.width / 2, Screen.height / 2)
+        );
+
+        if (Physics.Raycast(ray, out RaycastHit hit, interactRange))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.gameObject == gameObject)
+            if (hit.collider.gameObject == gameObject)
             {
-                atmUI.OpenATM(playerBalance);
+                interactPrompt.SetActive(true);
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interactPrompt.SetActive(false);
+                    atmUI.OpenATM();
+                }
+                return;
             }
         }
+
+        interactPrompt.SetActive(false);
     }
-    */
 }
